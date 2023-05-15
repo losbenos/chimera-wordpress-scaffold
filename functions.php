@@ -29,3 +29,14 @@ function chimera_master_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'chimera_master_scripts' );
 
+/**
+ * Registers the block using the metadata loaded from the `block.json` file.
+ * Behind the scenes, it registers also all assets so they can be enqueued
+ * through the block editor in the corresponding context.
+ *
+ * @see https://developer.wordpress.org/reference/functions/register_block_type/
+ */
+function chimera_custom_block_block_init() {
+	register_block_type( __DIR__ . '/custom-block/build' );
+}
+add_action( 'init', 'chimera_custom_block_block_init' );

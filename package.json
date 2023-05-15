@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/losbenos/chimera-wordpress-scaffold/issues"
   },
-  "homepage": "https://github.com/losbenos/chimera-wordpress-scaffold#readme"
+  "homepage": "https://github.com/losbenos/chimera-wordpress-scaffold#readme",
+  "devDependencies": {
+    "@wordpress/create-block": "^4.17.0",
+    "@wordpress/env": "^7.0.0"
+  }
 }
