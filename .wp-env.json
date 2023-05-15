@@ -1,0 +1,11 @@
+{
+	"core": "WordPress/WordPress",
+	"themes": [
+		"."
+	],
+	"mappings": {
+        "wp-content/plugins": "./wordpress/plugins",
+        "wp-content/themes": "./wordpress/themes",
+        "wp-content/uploads": "./wordpress/uploads"
+    }
+}
