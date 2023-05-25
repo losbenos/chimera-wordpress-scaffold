@@ -1,10 +1,290 @@
 {
-	"version": 2,
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"custom": false,
+			"customDuotone": false,
+			"customGradient": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"duotone": [
+				{
+					"colors": [
+						"#cc1871",
+						"#555"
+					],
+					"name": "Pink and Grey",
+					"slug": "pink-and-grey"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(#ac0bd9 0%, #fe0840 38.79%, #fe802d 100%)",
+					"name": "Red",
+					"slug": "red"
+				},
+				{
+					"gradient": "linear-gradient(#a8e212 0%, #01acea 100%)",
+					"name": "Green",
+					"slug": "green"
+				},
+				{
+					"gradient": "linear-gradient(#00a8e6 0%, #63358d 100%)",
+					"name": "Blue",
+					"slug": "blue"
+				}
+			],
+			"palette": [
+				{
+					"color": "#fff",
+					"name": "White",
+					"slug": "primary"
+				},
+				{
+					"color": "#444",
+					"name": "Dark Gray",
+					"slug": "secondary"
+				},
+				{
+					"color": "#5C6B73",
+					"name": "Blue Grey",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#707070",
+					"name": "Light Grey",
+					"slug": "quatenary"
+				},
+				{
+					"color": "rgba(0, 0, 0, 0)",
+					"name": "Transparent",
+					"slug": "transparent"
+				}
+			]
+		},
 		"layout": {
-			"contentSize": "840px",
-			"wideSize": "1100px"
+			"contentSize": "900px",
+			"wideSize": "1200px"
+		},
+		"spacing": {
+			"spacingSizes": [
+				{
+					"name": "1",
+					"size": "3rem",
+					"slug": "20"
+				},
+				{
+					"name": "2",
+					"size": "4rem",
+					"slug": "30"
+				},
+				{
+					"name": "3",
+					"size": "6rem",
+					"slug": "40"
+				},
+				{
+					"name": "4",
+					"size": "8rem",
+					"slug": "50"
+				},
+				{
+					"name": "5",
+					"size": "10rem",
+					"slug": "60"
+				},
+				{
+					"name": "6",
+					"size": "12rem",
+					"slug": "70"
+				},
+				{
+					"name": "7",
+					"size": "15rem",
+					"slug": "80"
+				}
+			],
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"%"
+			]
+		},
+		"typography": {
+			"customFontSize": true,
+			"dropCap": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_800.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/open-sans_normal_800.ttf"
+							]
+						}
+					],
+					"fontFamily": "Open Sans",
+					"slug": "open-sans"
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": ".75rem",
+					"slug": "extra-small"
+				},
+				{
+					"name": "Normal",
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"name": "Large",
+					"size": "1.5rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Larger",
+					"size": "2rem",
+					"slug": "medium-large"
+				},
+				{
+					"fluid": {
+						"max": "3rem",
+						"min": "2rem"
+					},
+					"name": "Extra Large",
+					"size": "3rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "4rem",
+						"min": "2rem"
+					},
+					"name": "XXL",
+					"size": "4rem",
+					"slug": "extra-large"
+				},
+				{
+					"name": "XXXL",
+					"size": "6rem",
+					"slug": "super-large"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--primary)",
+			"text": "var(--wp--preset--color--tertiary)"
+		},
+		"spacing": {
+			"blockGap": "2rem",
+			"padding": {
+				"left": "2rem",
+				"right": "2rem"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--open-sans)",
+			"fontSize": "var(--wp--preset--font-size--small)",
+			"lineHeight": "1.5"
 		}
-	}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json"
 }
