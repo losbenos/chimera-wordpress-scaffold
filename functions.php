@@ -11,14 +11,20 @@ if ( ! function_exists( 'chimera_master_support' ) ) :
 		// Adding support for core block visual styles.
 		add_theme_support( 'wp-block-styles' );
 
+		// Add support for editor styles.
+		add_theme_support( 'editor-styles' );
+
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
 
 		//remove core block patterns
 		remove_theme_support( 'core-block-patterns' );
 
-		//add support for classinc menus
+		//add support for classic menus
 		add_theme_support( 'menus' );
+
+		//responsive iframes
+		add_theme_support( 'responsive-embeds' );
 
 		//reinstate the customizer (useful for some woo setings)
 		//add_action( 'customize_register', '__return_true' );
@@ -111,19 +117,24 @@ add_action( 'init', 'chimera_enqueue_custom_block_styles' );
 //Registers block pattern categories and types.
 function chimera_register_block_pattern_categories() {
 
+	/* Functionality specific to the Block Pattern Explorer plugin. */
+	if ( function_exists( 'register_block_pattern_category_type' ) ) {
+		register_block_pattern_category_type( 'chimera', array( 'label' => __( 'Chimera', 'chimera' ) ) );
+	}
+
 	$block_pattern_categories = array(
 		'chimera-footer'       => array(
 			'label'         => __( 'Chimera Footer', 'chimera' ),
-			'categoryTypes' => array( 'chimera' ),
+			'categoryTypes' => array( 'chimera-footer' ),
 		),
 		'chimera-general'      => array(
 			'label'         => __( 'Chimera General', 'chimera' ),
-			'categoryTypes' => array( 'chimera' ),
+			'categoryTypes' => array( 'chimera-general' ),
 		),
 	);
 
-	foreach ( $block_pattern_categories as $name => $properties ) {
-		register_block_pattern_category( $name, $properties );
+	foreach ( $block_pattern_categories as $slug => $properties ) {
+		register_block_pattern_category( $slug, $properties );
 	}
 }
 add_action( 'init', 'chimera_register_block_pattern_categories', 9 );

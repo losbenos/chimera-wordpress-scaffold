@@ -1,10 +1,7 @@
 <?php 
 
-/**
- * Register block styles.
- *
- * @since 1.0
- */
+
+//Register block styles.
 function chimera_register_block_styles() {
 
 	$block_styles = array(
