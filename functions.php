@@ -127,9 +127,9 @@ function chimera_register_block_pattern_categories() {
 			'label'         => __( 'Chimera Footer', 'chimera' ),
 			'categoryTypes' => array( 'chimera-footer' ),
 		),
-		'chimera-general'      => array(
-			'label'         => __( 'Chimera General', 'chimera' ),
-			'categoryTypes' => array( 'chimera-general' ),
+		'chimera-cta'      => array(
+			'label'         => __( 'Chimera CTA', 'chimera' ),
+			'categoryTypes' => array( 'chimera-cta' ),
 		),
 	);
 
