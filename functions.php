@@ -131,6 +131,42 @@ function chimera_register_block_pattern_categories() {
 			'label'         => __( 'Chimera CTA', 'chimera' ),
 			'categoryTypes' => array( 'chimera-cta' ),
 		),
+		'chimera-people'      => array(
+			'label'         => __( 'Chimera People', 'chimera' ),
+			'categoryTypes' => array( 'chimera-people' ),
+		),
+		'chimera-faq'      => array(
+			'label'         => __( 'Chimera FAQ', 'chimera' ),
+			'categoryTypes' => array( 'chimera-faq' ),
+		),
+		'chimera-features'      => array(
+			'label'         => __( 'Chimera Features', 'chimera' ),
+			'categoryTypes' => array( 'chimera-features' ),
+		),
+		'chimera-footer'      => array(
+			'label'         => __( 'Chimera Footer', 'chimera' ),
+			'categoryTypes' => array( 'chimera-footer' ),
+		),
+		'chimera-gallery'      => array(
+			'label'         => __( 'Chimera Gallery', 'chimera' ),
+			'categoryTypes' => array( 'chimera-gallery' ),
+		),
+		'chimera-header'      => array(
+			'label'         => __( 'Chimera Header', 'chimera' ),
+			'categoryTypes' => array( 'chimera-header' ),
+		),
+		'chimera-hero'      => array(
+			'label'         => __( 'Chimera Hero', 'chimera' ),
+			'categoryTypes' => array( 'chimera-hero' ),
+		),
+		'chimera-pricing'      => array(
+			'label'         => __( 'Chimera Pricing', 'chimera' ),
+			'categoryTypes' => array( 'chimera-pricing' ),
+		),
+		'chimera-testimonials'      => array(
+			'label'         => __( 'Chimera Testimonials', 'chimera' ),
+			'categoryTypes' => array( 'chimera-testimonials' ),
+		),
 	);
 
 	foreach ( $block_pattern_categories as $slug => $properties ) {
