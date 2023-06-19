@@ -41,25 +41,61 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#444",
-					"name": "Dark Gray",
+					"color": "#1a1a1a",
+					"name": "Black",
 					"slug": "secondary"
+				},
+				{
+					"color": "#2b2b2b",
+					"name": "Dark Grey",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#444",
+					"name": "Grey",
+					"slug": "quaternary"
+				},
+				{
+					"color": "#5e5e5e",
+					"name": "Darker Grey",
+					"slug": "quinary"
+				},
+				{
+					"color": "#808080",
+					"name": "Light Grey",
+					"slug": "senary"
+				},
+				{
+					"color": "#999",
+					"name": "Lighter Grey",
+					"slug": "septenary"
+				},
+				{
+					"color": "#aaa",
+					"name": "Pale Grey",
+					"slug": "octonary"
+				},
+				{
+					"color": "#ccc",
+					"name": "Silver",
+					"slug": "nonary"
+				},
+				{
+					"color": "#e6e6e6",
+					"name": "Pale Silver",
+					"slug": "denary"
 				},
 				{
 					"color": "#5C6B73",
 					"name": "Blue Grey",
-					"slug": "tertiary"
-				},
-				{
-					"color": "#707070",
-					"name": "Light Grey",
-					"slug": "quatenary"
+					"slug": "undenary"
 				},
 				{
 					"color": "rgba(0, 0, 0, 0)",
 					"name": "Transparent",
-					"slug": "transparent"
+					"slug": "duodenary"
 				}
+				
 			]
 		},
 		"layout": {
