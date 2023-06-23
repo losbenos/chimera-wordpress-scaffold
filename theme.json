@@ -19,19 +19,14 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(#ac0bd9 0%, #fe0840 38.79%, #fe802d 100%)",
-					"name": "Red",
-					"slug": "red"
+					"gradient": "linear-gradient(90deg, #aaa 0%, #444 100%)",
+					"name": "One",
+					"slug": "one"
 				},
 				{
-					"gradient": "linear-gradient(#a8e212 0%, #01acea 100%)",
-					"name": "Green",
-					"slug": "green"
-				},
-				{
-					"gradient": "linear-gradient(#00a8e6 0%, #63358d 100%)",
-					"name": "Blue",
-					"slug": "blue"
+					"gradient": "linear-gradient(90deg, #808080 0%, #999 100%)",
+					"name": "Two",
+					"slug": "two"
 				}
 			],
 			"palette": [
@@ -95,7 +90,6 @@
 					"name": "Transparent",
 					"slug": "duodenary"
 				}
-				
 			]
 		},
 		"layout": {
