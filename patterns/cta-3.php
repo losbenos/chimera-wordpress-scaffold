@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Test Pattern.
- * Slug: chimera/cta-pattern-3
+ * Title: CTA 3
+ * Slug: chimera-master/cta-pattern-3
  * Description: Call to action
  * Categories: chimera-cta
  * Keywords: 
